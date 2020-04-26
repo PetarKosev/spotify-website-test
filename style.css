@@ -1,0 +1,209 @@
+body {
+    margin: 0; 
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    padding: 16px 384px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo svg {
+    fill: #ffffff;
+    height: 42px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+header .navigation ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .navigation ul li{
+    padding: 16px;
+    font-size: 15px;
+}
+
+header .navigation ul li a{
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .navigation ul li.signup a,
+header .navigation ul li.login a,
+header .navigation ul li.separator {
+    color: #d9dadc;
+}
+
+header .navigation ul li a:hover{
+    color: #1ED760;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background: linear-gradient(#F037A5 -90% , #FAE62D 140%);
+    position: relative;
+}
+
+section h1 {
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+section h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+section .body button {
+    background-color: #1aa34a;
+    height: 48px;
+    padding: 0 48px;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 24px;
+    letter-spacing: 2px;
+    transition: ease background 250ms;
+    outline: none;
+}
+
+section .body button:hover {
+    background-color: #1ED760;
+    cursor: pointer;
+}
+
+section .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 96px 384px;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .links {
+    display: flex;
+}
+
+
+.links .list {
+    padding: 0 48px;
+}
+
+.links .list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links .list ul li {
+    line-height: 48px;
+}
+
+.links .list ul li:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.links .list .title {
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .icon {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    background-color: #222326;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.icons .icon:hover svg {
+    fill: #1ED760;
+}
+
+.icons .icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.covid-19 {
+    padding: 42px 384px;
+}
+
+.covid-19 .title {
+    color: #2D46B9;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.covid-19 .description {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.covid-19 .description a {
+    color: inherit;
+}
