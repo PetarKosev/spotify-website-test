@@ -1,0 +1,166 @@
+header .navigation ul li.separator {
+    color: #ffffff;
+}
+
+header .navigation ul li a:hover{
+    color: #000000;
+}
+
+.content {
+    background: url(https://campaigns-test.scdn.co/images/premium_dancer.png) right bottom / 450px no-repeat rgb(80, 155, 245);
+}
+
+.body {
+    padding: 48px 384px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h4 {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 30px;
+}
+
+.body .button {
+    margin-bottom: 32px;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+.paragraph a {
+    text-decoration: underline;
+    color: inherit
+}
+
+.premium-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 64px;
+}
+
+.why-premium,
+.pricing {
+    padding: 72px 384px;
+}
+
+.why-premium ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.why-premium ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-premium ul li img {
+    width: 142px;
+    height: 142px;
+}
+
+.why-premium ul li strong {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-size: 21px;
+}
+
+.pricing-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pricing {
+    background: rgb(248, 248, 248);
+}
+
+.pricing-subheader {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+
+.pricing-plan {
+    width: 400px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.pricing-label span {
+    background-color: rgb(63, 158, 215);
+    padding: 4px 8px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.pricing-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pricing-plan hr {
+    border: 0;
+    border-top: 1px solid rgb(204, 204, 204);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.pricing-plan ul li {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.pricing-plan ul li svg {
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.pricing-plan ul {
+    min-height: 184px;
+    margin-bottom: 16px;
+}
+
+.pricing-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pricing-plan-terms {
+    font-size: 12px;
+    color: rgb(145, 148, 150);
+}
+
+.pricing-plan .button {
+    width: 100%;
+}
+
+.pricing-plan-terms a {
+    color: inherit;
+}
+
+.pricing-plan .button {
+    margin-bottom: 24px;
+}

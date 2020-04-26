@@ -1,63 +1,5 @@
-body {
-    margin: 0; 
-    font-family: sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 header {
     background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    padding: 16px 384px;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
-
-.logo svg {
-    fill: #ffffff;
-    height: 42px;
-    
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo:hover {
-    cursor: pointer;
-}
-
-header .navigation ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header .navigation ul li{
-    padding: 16px;
-    font-size: 15px;
-}
-
-header .navigation ul li a{
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-header .navigation ul li.signup a,
-header .navigation ul li.login a,
-header .navigation ul li.separator {
-    color: #d9dadc;
-}
-
-header .navigation ul li a:hover{
-    color: #1ED760;
 }
 
 section {
@@ -90,23 +32,7 @@ section h4 {
     z-index: 1;
 }
 
-section .body button {
-    background-color: #1aa34a;
-    height: 48px;
-    padding: 0 48px;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 24px;
-    letter-spacing: 2px;
-    transition: ease background 250ms;
-    outline: none;
-}
 
-section .body button:hover {
-    background-color: #1ED760;
-    cursor: pointer;
-}
 
 section .background {
     position: absolute;
@@ -206,4 +132,14 @@ footer .links {
 
 .covid-19 .description a {
     color: inherit;
+}
+
+header .navigation ul li.signup a,
+header .navigation ul li.login a,
+header .navigation ul li.separator {
+    color: #d9dadc;
+}
+
+header .navigation ul li a:hover{
+    color: #1ED760;
 }

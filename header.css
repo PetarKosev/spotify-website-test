@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    padding: 16px 384px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo svg {
+    fill: #ffffff;
+    height: 42px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+header .navigation ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .navigation ul li{
+    padding: 16px;
+    font-size: 15px;
+}
+
+header .navigation ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
