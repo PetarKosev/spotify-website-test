@@ -149,4 +149,5 @@ header ul li a:hover {
 }
 .front-navigation-menu-footer span {
     border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
 }
